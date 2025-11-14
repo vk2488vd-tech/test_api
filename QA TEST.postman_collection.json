@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "9ec2a8ba-6d63-4a0b-a902-20aef9a10c50",
+		"name": "QA TEST",
+		"description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "50036993",
+		"_collection_link": "https://vk2488vd-tech-3374910.postman.co/workspace/ca481112-57f0-4a8e-87fb-0a7779f23894/collection/50036993-9ec2a8ba-6d63-4a0b-a902-20aef9a10c50?action=share&source=collection_link&creator=50036993"
+	},
+	"item": [
+		{
+			"name": "Collections",
+			"item": [
+				{
+					"name": "GET Collection",
+					"item": []
+				},
+				{
+					"name": "POST Collection",
+					"item": []
+				},
+				{
+					"name": "DELETE Collection",
+					"item": [
+						{
+							"name": "New Request",
+							"request": {
+								"method": "DELETE",
+								"header": [],
+								"url": "https://jsonplaceholder.typicode.com/posts/1"
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "PUT Collection",
+					"item": [
+						{
+							"name": "New Request",
+							"request": {
+								"method": "PUT",
+								"header": [],
+								"url": {
+									"raw": "https://jsonplaceholder.typicode.com/posts/1?title=New",
+									"protocol": "https",
+									"host": [
+										"jsonplaceholder",
+										"typicode",
+										"com"
+									],
+									"path": [
+										"posts",
+										"1"
+									],
+									"query": [
+										{
+											"key": "title",
+											"value": "New"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "OPTIONS Collection",
+					"item": [
+						{
+							"name": "New Request",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
